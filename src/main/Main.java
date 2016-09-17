@@ -18,7 +18,7 @@ public class Main {
 		
 		System.out.println("c) возводит в квадрат каждое второе число из массива простых чисел");
 		ArrayList<Integer> squar = new Operations().squar(primeList);
-		System.out.println("squar");
+		System.out.println(squar);
 		
 		System.out.println("d) возводит в куб каждое пятое число из массива простых чисел");
 		ArrayList<Integer> cub = new Operations().cub(primeList);
