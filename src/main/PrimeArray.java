@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PrimeArray {
 
-	private ArrayList<Integer> primesNumbers = new ArrayList<>();
+	private ArrayList<Integer> numbers = new ArrayList<>();
 
 	public ArrayList<Integer> getList() {
 		for (int i = 1; i <= 1000; i++) {
@@ -17,10 +17,9 @@ public class PrimeArray {
 			}
 
 			if (counter == 2) {
-				primesNumbers.add(i);
+				numbers.add(i);
 			}
 		}
-		return primesNumbers;
+		return numbers;
 	}
-
 }
